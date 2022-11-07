@@ -1,6 +1,14 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+{
+    "notes": [
+        {
+            "title": "How to become an architect",
+            "text": "Stop!",
+            "id": "0"
+        },
+        {
+            "title": "Coding is good",
+            "text": "lets learn how to code ",
+            "id": "1"
+        }
+    ]
+  }
