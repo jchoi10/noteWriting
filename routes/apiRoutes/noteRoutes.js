@@ -14,6 +14,29 @@ function createNote (body, notesArray) {
     return note;
 };
 
+function validateNote (note) {
+    if (!note.title || typeof note.title !== 'string') {
+        return false;
+    }
+    if (!note.text || typeof note.text !== 'string') {
+        return false;
+    }
+    return true;
+};
 
+router.get('/api/notes', (req, res) => {
+    res.json(notes);
+});
+
+router.post('/api/notes', (req, res) => {
+    req.body.id = notes.length.toString();
+    
+    if (!validateNote(req.body)) {
+        res.status(400).send('Please enter all information to complete the note!');
+    } else {
+        const note = createNote(req.body, notes);
+        res.json(note);
+    }
+});
 
 module.exports = router;
