@@ -24,11 +24,11 @@ function validateNote (note) {
     return true;
 };
 
-router.get('/api/notes', (req, res) => {
+router.get('/notes', (req, res) => {
     res.json(notes);
 });
 
-router.post('/api/notes', (req, res) => {
+router.post('/notes', (req, res) => {
     req.body.id = notes.length.toString();
     
     if (!validateNote(req.body)) {

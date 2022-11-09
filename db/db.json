@@ -1,14 +1,49 @@
 {
-    "notes": [
-        {
-            "title": "How to become an architect",
-            "text": "Stop!",
-            "id": "0"
-        },
-        {
-            "title": "Coding is good",
-            "text": "lets learn how to code ",
-            "id": "1"
-        }
-    ]
-  }
+  "notes": [
+    {
+      "title": "How to become an architect",
+      "text": "Stop!",
+      "id": "0"
+    },
+    {
+      "title": "Coding is good",
+      "text": "lets learn how to code ",
+      "id": "1"
+    },
+    {
+      "title": "asdf",
+      "text": "asdf",
+      "id": "2"
+    },
+    {
+      "title": "fef",
+      "text": "efef",
+      "id": "3"
+    },
+    {
+      "title": "srtr",
+      "text": "tertert",
+      "id": "4"
+    },
+    {
+      "title": "sdfsdf",
+      "text": "sdfsdf",
+      "id": "5"
+    },
+    {
+      "title": "sefsffsdf",
+      "text": "sdfsdfsdf",
+      "id": "6"
+    },
+    {
+      "title": "sdfsdfdsf",
+      "text": "sdf",
+      "id": "7"
+    },
+    {
+      "title": "fgd",
+      "text": "asdfgdff",
+      "id": "8"
+    }
+  ]
+}
